@@ -1,0 +1,54 @@
+/*Css Document*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+    background-color: lightblue;
+}
+.container{
+    /* padding: 0 8%; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10%;
+}
+.Countdown{
+    top:50%;
+    position:absolute;
+    transform:translate(-50%);
+    color: black;
+    
+}
+.Countdown h1{
+    font-size: 64px;
+    font-weight: 600 ;
+    color: black;
+
+}
+.launch-time{
+    display:flex;
+}
+.launch-time div{
+    flex-basis: 100px;
+}
+.launch-time div p{
+    font-size: 60px;
+    margin-bottom: -14px;
+    color: black;
+}
+.launch-time{
+    display: flex;
+}
+.launch-time div{
+    flex-basis: 100px;
+}
+.launch-time div p{
+    font-size: 60px;
+    margin-bottom: -14px;
+}
+.iphone{
+    width: 250px;;
+    position: absolute;
+    right:10%;
+bottom: 0;
+}
